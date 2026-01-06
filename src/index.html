@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Clariq-ova | Технологии, которые работают на вас</title>
+  <title>Zelux Beam | Technologies that work for you</title>
+
   <link rel="icon" type="image/svg+xml"
     href="data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='32' height='32' rx='8' fill='%231e40af'/%3E%3Cpath d='M10 22L16 10L22 22' stroke='%2360a5fa' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Ccircle cx='16' cy='14' r='2' fill='white'/%3E%3C/svg%3E">
 
@@ -15,29 +16,31 @@
     rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body class="is-loading">
-    <div class="loader-overlay"></div>
-    <load src="./partials/header.html" />
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <load src="./partials/main.html" />
-    </main>
+<body class="is-loading">
+  <div class="loader-overlay"></div>
 
-    <load src="./partials/footer.html" />
-<div class="cookie-popup" id="cookiePopup">
-  <div class="cookie-popup__content">
-    <p>Этот сайт использует cookies для улучшения работы. Подробнее — в нашей <a href="./cookies.html">Cookie
-        политике</a>.</p>
-    <button class="btn btn--small" id="acceptCookies">Принять</button>
+  <load src="./partials/header.html" />
+
+  <main>
+    <load src="./partials/main.html" />
+  </main>
+
+  <load src="./partials/footer.html" />
+
+  <div class="cookie-popup" id="cookiePopup">
+    <div class="cookie-popup__content">
+      <p>This website uses cookies to ensure you get the best experience. Read more in our <a href="./cookies.html">Cookie Policy</a>.</p>
+      <button class="btn btn--small" id="acceptCookies">Accept</button>
+    </div>
   </div>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
 
-    <script type="module" src="./main.js"></script>
-  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+  <script type="module" src="./main.js"></script>
+</body>
+
 </html>
