@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/clariq-ova/",
+    "build": "vite build --base=/zelux-beam/",
     "preview": "vite preview"
   },
   "devDependencies": {
